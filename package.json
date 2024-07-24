@@ -1,0 +1,17 @@
+{
+  "name": "fm-test",
+  "version": "1.0.0",
+  "description": "testing aws foundation models",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Geraldo Barros",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.606.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
